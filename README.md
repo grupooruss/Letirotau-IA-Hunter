@@ -7,14 +7,22 @@ Este script automatiza **búsquedas avanzadas** en **Google, Bing, DuckDuckGo, Y
 
 ## 🚀 Características
 
-✅ **Soporte para más de 40 Dorks específicos RELACIONADOS CON IA** (API Keys, Configs, Credenciales, etc.)
-✅ **Carga dorks personalizados desde un archivo externo** (dorks.txt).
+✅ **Soporte para más de 40 Dorks específicos RELACIONADOS CON IA** (API Keys, Configs, Credenciales, etc.) 
+
+✅ **Carga dorks personalizados desde un archivo externo** (dorks.txt). 
+
 ✅ **Búsqueda automatizada motores de búsqueda** para obtener mejores resultados.  (adiciona los que quieras)
+
 ✅ **Soporte para Tor y Proxychains para anonimizar búsquedas.**
+
 ✅ **Integración con SerpAPI para evitar bloqueos y afiando resultados.**
+
 ✅ **Análisis de contenido HTML para detectar credenciales filtradas.**
+
 ✅ **Clasificación de hallazgos con GPT-4 para evaluar la criticidad de la información expuesta.**
+
 ✅ **Optimizado para pentesters y OSINT**, proporcionando información útil de inmediato.  
+
 ✅ **Ejecución rápida y sencilla**
 
 --
