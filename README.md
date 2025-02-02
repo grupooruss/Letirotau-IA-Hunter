@@ -1,4 +1,4 @@
-# 🔍 LetiroTAU-IA-Hunter: Exploración de Info Sensible relacionada con IA.
+# 🔍 Letirotau-IA-Hunter: Exploración de Info Sensible relacionada con IA.
 
 A menudo realizando Pentesting, detectamos joyas de la corona en las primeras fases de los procesos usando OSINT, un significativo número de oportunidades aumentan, cuando por olvido o descuido de algún equipo, la información queda expuesta a los atacantes.  Ahora, la búsqueda se amplía para abarcar los potenciales trozos de información expuestos como resultado del desarrollo de IAs, chatbots o sistemas de mensajería automatizados.
 
