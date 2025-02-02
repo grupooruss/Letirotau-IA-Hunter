@@ -8,9 +8,9 @@ from fake_useragent import UserAgent
 from stem import Signal
 from stem.control import Controller
 
-# Configurar API Keys
-OPENAI_API_KEY = "TU_OPENAI_API_KEY"
-SERPAPI_KEY = "TU_SERPAPI_KEY"
+# API Keys
+OPENAI_API_KEY = "OPENAI_API_KEY"
+SERPAPI_KEY = "SERPAPI_KEY"
 
 HEADERS = {"User-Agent": UserAgent().random}
 
