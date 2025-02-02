@@ -8,9 +8,14 @@ Este script automatiza **búsquedas avanzadas** en **Google, Bing, DuckDuckGo, Y
 ## 🚀 Características
 
 ✅ **Soporte para más de 40 Dorks específicos RELACIONADOS CON IA** (API Keys, Configs, Credenciales, etc.)
-✅ **Búsqueda automatizada en 5 motores de búsqueda** para obtener mejores resultados.  (adiciona los que quieras) 
+✅ **Carga dorks personalizados desde un archivo externo** (dorks.txt).
+✅ **Búsqueda automatizada motores de búsqueda** para obtener mejores resultados.  (adiciona los que quieras)
+✅ **Soporte para Tor y Proxychains para anonimizar búsquedas.**
+✅ **Integración con SerpAPI para evitar bloqueos y afiando resultados.**
+✅ **Análisis de contenido HTML para detectar credenciales filtradas.**
+✅ **Clasificación de hallazgos con GPT-4 para evaluar la criticidad de la información expuesta.**
 ✅ **Optimizado para pentesters y OSINT**, proporcionando información útil de inmediato.  
-✅ **Ejecución rápida y sencilla**, solo necesitas un dominio objetivo.  
+✅ **Ejecución rápida y sencilla**
 
 --
 
@@ -24,12 +29,29 @@ cd GitDorker-IA
 
 Instalar dependencias necesarias: pip install -r requirements.txt
 
-python letirotau.py --target example.com
+**Usando Tor, instálalo con**
+sudo apt install tor  # En Linux
+brew install tor  # En macOS
+choco install tor  # En Windows (con Chocolatey)
+
+🔹Load and shoot
+python letirotau.py --target yourhouse.com
+
+🔹 Ejecutar con Tor
+proxychains python letirotau.py --target yourhouse.com --tor
+
+🔹 Ejecutar con SerpAPI (para evitar bloqueos):
+python letirotau.py --target yourhouse.com --serpapi
+
+🔹 Mixed Drinks:
+proxychains python script.py --target yourhouse.com --tor --serpapi
+
 
 🛡️ Advertencia Legal
 
 Este script está destinado exclusivamente para fines educativos y auditorías de seguridad con autorización.
 No debe utilizarse para actividades ilegales o sin el consentimiento del propietario del dominio.
+
 --
 #👨‍💻Creado por la Division81 del Grupo Oruss💡
 --
