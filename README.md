@@ -1,4 +1,6 @@
-# 🔍 GitDorker-IA: Exploración de Información Sensible con Dorks 🔍
+# 🔍 IA-Dork-Hunter: Exploración de Información Sensible relacionada con Inteligencia Artificial. 🔍
+
+
 
 Este script automatiza **búsquedas avanzadas** en **Google, Bing, DuckDuckGo, Yahoo y Baidu** para detectar información sensible expuesta en un dominio o plataforma. Utiliza **Dorks de seguridad** para encontrar credenciales, API Keys, configuraciones de IA, y más.
 
@@ -24,3 +26,11 @@ cd GitDorker-IA
 Instalar dependencias necesarias: pip install -r requirements.txt
 
 python script.py --target example.com
+
+
+
+🛡️ Advertencia Legal
+
+Este script está destinado exclusivamente para fines educativos y auditorías de seguridad con autorización. No debe utilizarse para actividades ilegales o sin el consentimiento del propietario del dominio.
+
+👨‍💻 Creado por Division81 [grupooruss] | 💡 
