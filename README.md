@@ -7,8 +7,8 @@ Este script automatiza **búsquedas avanzadas** en **Google, Bing, DuckDuckGo, Y
 
 ## 🚀 Características
 
-✅ **Soporte para más de 40 Dorks específicos RELACIONADOS CON IA** (API Keys, Configs, Credenciales, etc.).  
-✅ **Búsqueda automatizada en 5 motores de búsqueda** para obtener mejores resultados.  (agrega los que quieras) 
+✅ **Soporte para más de 40 Dorks específicos RELACIONADOS CON IA** (API Keys, Configs, Credenciales, etc.)
+✅ **Búsqueda automatizada en 5 motores de búsqueda** para obtener mejores resultados.  (adiciona los que quieras) 
 ✅ **Optimizado para pentesters y OSINT**, proporcionando información útil de inmediato.  
 ✅ **Ejecución rápida y sencilla**, solo necesitas un dominio objetivo.  
 
