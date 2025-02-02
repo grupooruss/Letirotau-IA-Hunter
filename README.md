@@ -1,11 +1,26 @@
-# ia-dork-hunter
-Este script automatiza la búsqueda de información sensible en internet mediante dorks avanzados en múltiples motores de búsqueda como Google, Bing, DuckDuckGo, Yahoo y Baidu. Se enfoca en encontrar claves de API, credenciales expuestas, configuraciones de IA, y datos sensibles en un dominio o plataforma específica.
+# 🔍 GitDorker-IA: Exploración de Información Sensible con Dorks 🔍
 
-Ideal para red teaming, OSINT y auditorías de seguridad, el script genera solicitudes reales a los motores de búsqueda, asegurando resultados más precisos.
+Este script automatiza **búsquedas avanzadas** en **Google, Bing, DuckDuckGo, Yahoo y Baidu** para detectar información sensible expuesta en un dominio o plataforma. Utiliza **Dorks de seguridad** para encontrar credenciales, API Keys, configuraciones de IA, y más.
 
-🚀 Características:
+---
 
-    🛡️ Automatiza dorks avanzados para encontrar información expuesta.
-    🔍 Consulta 5 motores de búsqueda en tiempo real.
-    ⏳ Evita bloqueos con headers personalizados y retrasos entre peticiones.
-    ⚡ Fácil ejecución: solo requiere un --target.
+## 🚀 Características
+
+✅ **Soporte para más de 40 Dorks específicos** (API Keys, Configs, Credenciales, etc.).  
+✅ **Búsqueda automatizada en 5 motores de búsqueda** para obtener mejores resultados.  
+✅ **Optimizado para pentesters y OSINT**, proporcionando información útil de inmediato.  
+✅ **Ejecución rápida y sencilla**, solo necesitas un dominio objetivo.  
+
+---
+
+## 📌 Instalación
+
+Clona el repositorio y entra en la carpeta:
+
+```bash
+git clone https://github.com/tuusuario/GitDorker-IA.git
+cd GitDorker-IA
+
+Instalar dependencias necesarias: pip install -r requirements.txt
+
+python script.py --target example.com
