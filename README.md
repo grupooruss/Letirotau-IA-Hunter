@@ -24,7 +24,7 @@ cd GitDorker-IA
 
 Instalar dependencias necesarias: pip install -r requirements.txt
 
-python script.py --target example.com
+python letirotau.py --target example.com
 
 🛡️ Advertencia Legal
 
